@@ -1,0 +1,31 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add react-native --exact
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+Yarn version: 
+  0.16.1
+
+Node version: 
+  6.6.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {"name":"LectureApp","version":"0.0.1","private":true,"scripts":{"start":"node node_modules/react-native/local-cli/cli.js start"}}
+
+yarn manifest: 
+  No manifest
+
+bower manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: read ETIMEDOUT
+      at exports._errnoException (util.js:1036:11)
+      at TLSWrap.onread (net.js:564:26)
